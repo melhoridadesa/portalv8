@@ -1,0 +1,9 @@
+1 - git shell que deve vir com o github
+2 - Abrir o git shell
+3 - Na pasta do windows navegar ate onde vc deseja que o projeto fique
+4 - Copiar o caminho, por exemplo: C:\wamp\sites
+5 - No git shell colocar cd C:\wamp\sites
+6 - Aplicar a permissao na pasta, por exemplo: chmod 777 C:\wamp\portalv8 -R
+
+Clonar
+1 - git clone https:\\github.com/portalv8 no caminho onde eu quero: C:\wamp\
