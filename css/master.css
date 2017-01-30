@@ -1,0 +1,18 @@
+* {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+html > body > .geral {
+	width: 500px;
+	background: red;
+	overflow-y: hidden;
+}
+
+.logo {
+	width: 50px;
+}
