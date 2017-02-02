@@ -1,13 +1,20 @@
-<?php
+<html>
+	<form method="post" action="inserirPessoa.php">
+		Nome: <input type="text" name="nome" />
+		<br />
+		Celular: <input type="text" name="celular" />
+		<br />
+ 		Telefone: <input type="text" name="telefone" />
+ 		<br />
+ 		CPF: <input type="text" name="cpf" />
+ 		<br />
+ 		RG: <input type="text" name="rg" />
+ 		<br />
+ 		Idade: <input type="text" name="idade" />
+ 		<br />
+ 		Profissao: <input type="text" name="profissao" />
+ 		<br />
+ 		<input type="submit" value="::: ENVIAR :::" />
 
-if($_GET) {
-	$pagina = $_GET;
-	//AQUI TEM UM PROBLEMA DE LOGICA
-	// E SE O ARQUIVO NAO EXISTIR ?
-	// file_exists
-	if($pagina['pagina'] == 'faleconosco') {
-		require_once 'FaleConosco.php';
-	}
-} else {
-	require_once '404.php';
-}
+	</form>
+</html>
